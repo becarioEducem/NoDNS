@@ -16,5 +16,3 @@ $TTL 1D
 180	IN	PTR	smtp.legon.intranet.
 180	IN	PTR	www.legon.intranet.
 190	IN	PTR	db.legon.intranet.
-	
-
