@@ -1,0 +1,21 @@
+$TTL 1D
+$ORIGIN legon.intranet.
+@	IN SOA	srv1 dgonzalez (
+					2	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+;Name Servers
+ns1	IN	A	172.31.20.101
+ns1	IN	AAAA	fe80::83a:d7ff:fe00:61f3	
+ns2	IN	A	172.31.20.102
+ns2	IN	AAAA	fe80::855:60ff:fe3f:da93
+
+;Web Server
+www	IN	A	172.31.20.180
+www	IN	AAAA	fe80::821:50ff:fa3f:df44
+
+;Database Server
+db	IN	A	172.31.20.190
+db	IN	AAAA	fe80::785:30ff:f23f:dbc1
