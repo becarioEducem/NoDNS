@@ -1,0 +1,20 @@
+$TTL 1D
+@	IN SOA	srv1 dgonzalez (
+					3	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+;Name Servers
+	NS	ns1.legon.intranet.
+	NS	ns2.legon.intranet.
+
+;Reverse IPv4 Lookups
+101	IN	PTR	ns1.legon.intranet.
+102	IN	PTR	ns2.legon.intranet.
+
+180	IN	PTR	smtp.legon.intranet.
+180	IN	PTR	www.legon.intranet.
+190	IN	PTR	db.legon.intranet.
+	
+
